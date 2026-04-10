@@ -173,8 +173,17 @@ body {
     font-family: playfair display;
 }
 
+
+section:nth-of-type(2) {
+    border-top: 2px solid var(--champagne-gold);
+    border-bottom: 2px solid var(--champagne-gold);
+    max-width: 95%;
+    margin: 0 auto;
+}
+
 section:nth-of-type(2) > div {
     background-color: var(--olive-green);
+    margin: 0.5em 0 0.5em 0;
 }
 
 footer {
