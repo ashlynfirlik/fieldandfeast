@@ -74,17 +74,41 @@ section:nth-of-type(4) {
     section:nth-of-type(4) {
         grid-template-columns: repeat(2, 1fr);
     }
+    section:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    section:nth-of-type(2) > div:nth-of-type(3) {
+        grid-column: 1/-1;
+    }
 }
 
 @media (min-width: 900px) {
     section:nth-of-type(4) {
         grid-template-columns: repeat(3, 1fr);
     }
+    section:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    section:nth-of-type(2) > div:nth-of-type(3) {
+        grid-column: 1/-1;
+    }
 }
 
 @media (min-width: 1200px) {
     section:nth-of-type(4) {
         grid-template-columns: repeat(5, 1fr);
+    }
+    section:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    section:nth-of-type(2) > div:nth-of-type(3) {
+        grid-column: 1/-1;
     }
 }
 
