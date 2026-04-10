@@ -186,11 +186,13 @@ section:first-of-type {
 
 section:first-of-type > h2 {
     padding-top: 70px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 section:first-of-type > p {
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.6rem;
+    font-size: 1.2rem;
 }
 
 section:nth-of-type(2) {
