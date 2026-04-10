@@ -152,6 +152,12 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 2.2rem;
+    font-weight: lighter;
+    color: var(--midnight-blue)
+}
+
 nav {
     background-color: var(--champagne-gold);
     padding: 1em;
@@ -173,6 +179,19 @@ body {
     font-family: playfair display;
 }
 
+section:first-of-type {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+section:first-of-type > h2 {
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+section:first-of-type > p {
+    line-height: 1.5rem;
+}
 
 section:nth-of-type(2) {
     border-top: 2px solid var(--champagne-gold);
