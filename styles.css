@@ -200,11 +200,18 @@ section:nth-of-type(2) {
     border-bottom: 2px solid var(--champagne-gold);
     max-width: 95%;
     margin: 0 auto;
+    display: grid;
+    gap: 1rem;
 }
 
 section:nth-of-type(2) > div {
     background-color: var(--olive-green);
-    margin: 0.5em 0 0.5em 0;
+}
+
+h3 {
+    color: var(--linen);
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 footer {
