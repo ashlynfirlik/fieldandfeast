@@ -132,9 +132,9 @@ header {
 }
 
 header p {
-    padding-top: 35px;
+    padding-top: 30px;
     padding-bottom: 35px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: italic;
     font-weight: lighter;
 }
@@ -147,7 +147,7 @@ header img {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 3.8rem;
     padding-top: 20px;
     font-weight: bold;
 }
