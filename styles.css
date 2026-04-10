@@ -158,6 +158,13 @@ h2 {
     color: var(--midnight-blue)
 }
 
+h3 {
+    color: var(--linen);
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
 nav {
     background-color: var(--champagne-gold);
     padding: 1em;
@@ -206,12 +213,17 @@ section:nth-of-type(2) {
 
 section:nth-of-type(2) > div {
     background-color: var(--olive-green);
+    border-radius: 0.5rem;
 }
 
-h3 {
-    color: var(--linen);
-    font-size: 1.8rem;
-    font-weight: bold;
+section:nth-of-type(2) > div > p {
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+section:nth-of-type(2) > div > ul {
+    line-height: 1.5rem;
+    padding: 1rem;
 }
 
 footer {
