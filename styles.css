@@ -132,8 +132,8 @@ header {
 }
 
 header p {
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     font-size: 1.5rem;
     font-style: italic;
     font-weight: lighter;
@@ -163,10 +163,9 @@ nav a {
     font-weight: bold;
 }
 
-nav li {
-    display: inline-block;
-    text-align: center;
-    margin: 0 40px 0 40px;
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 body {
