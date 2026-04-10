@@ -127,6 +127,22 @@ section:nth-of-type(4) {
 
 header {
     background-color: var(--midnight-blue);
+    color: var(--linen);
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+body {
+    font-family: playfair display;
 }
 
 section:nth-of-type(2) > div {
