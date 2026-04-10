@@ -150,6 +150,15 @@ h1 {
     font-weight: bold;
 }
 
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+}
+
 body {
     font-family: playfair display;
 }
