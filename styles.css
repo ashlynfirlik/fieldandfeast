@@ -133,6 +133,7 @@ header {
 
 header p {
     padding-top: 45px;
+    padding-bottom: 45px;
     font-size: 1.5rem;
     font-style: italic;
     font-weight: lighter;
@@ -145,18 +146,27 @@ header img {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     padding-top: 20px;
     font-weight: bold;
 }
 
 nav {
-    text-align: center;
+    background-color: var(--champagne-gold);
+    padding: 1em;
 }
 
 nav a {
+    text-decoration: none;
+    color: var(--midnight-blue);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+nav li {
     display: inline-block;
-    margin: 5px;
+    text-align: center;
+    margin: 0 40px 0 40px;
 }
 
 body {
