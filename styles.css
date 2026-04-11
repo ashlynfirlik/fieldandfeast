@@ -269,10 +269,22 @@ section:nth-of-type(3) > p:first-of-type {
     color: var(--dark-charcoal);
 }
 
-section:nth-of-type(3) > div {
-    border: 1px white;
+section:nth-of-type(4) img {
+    max-width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    border: 1px solid white;
     border-radius: 0.8rem;
-    box-shadow: 0 4px 12px (--dark-charcoal);
+    box-shadow: 0 4px 12px var(--dark-charcoal);
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 footer {
