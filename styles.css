@@ -160,9 +160,10 @@ h2 {
 
 h3 {
     color: var(--linen);
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: bold;
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+    line-height: 3rem;
 }
 
 section:nth-of-type(2) > div:first-of-type > h3 {
@@ -212,7 +213,7 @@ section:nth-of-type(2) {
     max-width: 95%;
     margin: 0 auto;
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 section:nth-of-type(2) > div {
@@ -221,13 +222,21 @@ section:nth-of-type(2) > div {
 }
 
 section:nth-of-type(2) > div > p {
-    line-height: 1.5rem;
-    padding: 1rem;
+    line-height: 1.8rem;
+    padding: 0 1rem 1rem 1rem;
+    color: var(--linen);
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
 }
 
 section:nth-of-type(2) > div > ul {
-    line-height: 1.5rem;
-    padding: 1rem;
+    line-height: 1.8rem;
+    list-style-type: disc;
+    color: var(--linen);
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
 }
 
 footer {
