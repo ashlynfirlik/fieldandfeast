@@ -317,4 +317,8 @@ section:nth-of-type(4) a {
 
 footer {
     background-color: var(--midnight-blue);
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px 20px;
 }
