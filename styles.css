@@ -321,4 +321,25 @@ footer {
     justify-content: center;
     gap: 70px;
     padding: 30px 20px;
+    color: var(--linen);
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding-top: 45px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 45px;
+}
+
+footer a {
+    color: var(--champagne-gold);
+    text-decoration: none;
 }
