@@ -276,16 +276,12 @@ section:nth-of-type(4) img {
 }
 
 figure {
-    border: 1px solid white;
     border-radius: 0.8rem;
-    box-shadow: 0 4px 12px var(--dark-charcoal);
+    box-shadow: 2px 5px 10px grey;
+    margin: 0;
 }
 
-figure img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+
 
 footer {
     background-color: var(--midnight-blue);
