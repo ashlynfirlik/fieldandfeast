@@ -291,15 +291,22 @@ figcaption {
     color: var(--dark-charcoal);
 }
 
+section:nth-of-type(4) {
+    border-bottom: 2px solid var(--champagne-gold);
+    margin-bottom: 2.5rem;
+}
+
 section:nth-of-type(4) > p {
     grid-column: 1/-1;
     border-radius: 0.4rem;
     justify-self: center;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     background-color: var(--olive-green);
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 section:nth-of-type(4) a {
