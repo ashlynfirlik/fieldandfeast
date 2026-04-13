@@ -296,7 +296,6 @@ section:nth-of-type(3) {
 section:nth-of-type(3) > div {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 section:nth-of-type(3) > p:last-of-type {
